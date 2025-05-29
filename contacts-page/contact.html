@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project | Contacts</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="part part-1">
+        <img class="logo" src="logo.png" alt="Logo" />
+        <div class="link-container">
+          <a class="text" href="#">Privacy Policy</a>
+          <a class="text" href="#">Modern Day Statement</a>
+          <a class="text" href="#">Social Impact Statement</a>
+        </div>
+      </div>
+
+      <div class="part part-2">
+        <nav class="navbar">
+          <a class="link" href="#">About</a>
+          <a class="link" href="#">Services</a>
+          <a class="link contact-button" href="#">Contact us</a>
+        </nav>
+        <h1 class="heading">Contact us</h1>
+        <form action="submit">
+          <label for="name">First name</label>
+          <input type="text" name="name" id="first-name" required />
+          <label for="surname">Last name</label>
+          <input type="text" name="surname" id="last-name" required />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+          <label for="phone-number">Phone number</label>
+          <input type="number" name="phone-number" id="phone-number" required />
+          <label for="message">Message</label>
+          <input type="text" name="message" id="message" required />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
